@@ -13,6 +13,8 @@
 		884A64B029043D840005A62C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 884A64AE29043D840005A62C /* Main.storyboard */; };
 		884A64B229043D850005A62C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 884A64B129043D850005A62C /* Assets.xcassets */; };
 		884A64B529043D850005A62C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 884A64B329043D850005A62C /* LaunchScreen.storyboard */; };
+		884A64C1290D65FE0005A62C /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884A64C0290D65FE0005A62C /* CameraViewController.swift */; };
+		884A64C3290D67A60005A62C /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884A64C2290D67A60005A62C /* PreviewView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		884A64B129043D850005A62C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		884A64B429043D850005A62C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		884A64B629043D850005A62C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		884A64C0290D65FE0005A62C /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		884A64C2290D67A60005A62C /* PreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +64,11 @@
 				884A64AA29043D840005A62C /* SceneDelegate.swift */,
 				884A64AC29043D840005A62C /* ViewController.swift */,
 				884A64AE29043D840005A62C /* Main.storyboard */,
+				884A64C2290D67A60005A62C /* PreviewView.swift */,
 				884A64B129043D850005A62C /* Assets.xcassets */,
 				884A64B329043D850005A62C /* LaunchScreen.storyboard */,
 				884A64B629043D850005A62C /* Info.plist */,
+				884A64C0290D65FE0005A62C /* CameraViewController.swift */,
 			);
 			path = customCamera;
 			sourceTree = "<group>";
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				884A64C3290D67A60005A62C /* PreviewView.swift in Sources */,
 				884A64AD29043D840005A62C /* ViewController.swift in Sources */,
+				884A64C1290D65FE0005A62C /* CameraViewController.swift in Sources */,
 				884A64A929043D840005A62C /* AppDelegate.swift in Sources */,
 				884A64AB29043D840005A62C /* SceneDelegate.swift in Sources */,
 			);
