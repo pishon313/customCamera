@@ -10,13 +10,19 @@ import AVFoundation
 
 class CameraViewController: ViewController {
     
+    
+    // AVCaptureSession
     let captureSession = AVCaptureSession()
     var videoDeviceInput: AVCaptureDeviceInput!
     let photoOutput = AVCapturePhotoOutput()
     
     let sessionQueue = DispatchQueue(label: "session queue")
     let videoDeviceDiscoverySession = AVCaptureDevice.DiscoverySession(deviceTypes: [.builtInDualCamera, .builtInWideAngleCamera, .builtInTrueDepthCamera], mediaType: .video, position: .unspecified)
-
+    
+    
+    // For toggle camera
+    let currentVideoDevice = videoDeviceInput.device
+    let currentPosition = currentVideoDevice.position
     
     @IBOutlet weak var previewView: PreviewView!
     
